@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConverter/ViewController.swift"
+            timestampString = "511769112.238612"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConverter/AppDelegate.swift"
+            timestampString = "511769533.046725"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConverter.AppDelegate.init () -&gt; MoneyConverter.AppDelegate"
+                  moduleName = "MoneyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jungsunwook/Desktop/MoneyConverter/MoneyConverter/AppDelegate.swift"
+                  timestampString = "511888399.93428"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConverter.AppDelegate.__allocating_init () -&gt; MoneyConverter.AppDelegate"
+                  moduleName = "MoneyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jungsunwook/Desktop/MoneyConverter/MoneyConverter/AppDelegate.swift"
+                  timestampString = "511888399.936668"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "MoneyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jungsunwook/Desktop/MoneyConverter/MoneyConverter/AppDelegate.swift"
+                  timestampString = "511888399.938989"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConverter/money.swift"
+            timestampString = "511888314.550893"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "Money"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConverter.Money.init (Swift.Double) -&gt; MoneyConverter.Money"
+                  moduleName = "MoneyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jungsunwook/Desktop/MoneyConverter/MoneyConverter/money.swift"
+                  timestampString = "511888413.817813"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConverter.Money.init (Swift.Double, currency : MoneyConverter.Currency) -&gt; MoneyConverter.Money"
+                  moduleName = "MoneyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jungsunwook/Desktop/MoneyConverter/MoneyConverter/money.swift"
+                  timestampString = "511888413.820445"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConverter.Money.usdollar.getter : Swift.Double"
+                  moduleName = "MoneyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jungsunwook/Desktop/MoneyConverter/MoneyConverter/money.swift"
+                  timestampString = "511888413.821981"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "9">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConverter.Money.usdollar.setter : Swift.Double"
+                  moduleName = "MoneyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jungsunwook/Desktop/MoneyConverter/MoneyConverter/money.swift"
+                  timestampString = "511888413.825113"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConverter/money.swift"
+            timestampString = "511888412.039522"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "Currency"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConverter.Money.init (Swift.Double) -&gt; MoneyConverter.Money"
+                  moduleName = "MoneyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jungsunwook/Desktop/MoneyConverter/MoneyConverter/money.swift"
+                  timestampString = "511888412.045484"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConverter.Money.init (Swift.Double, currency : MoneyConverter.Currency) -&gt; MoneyConverter.Money"
+                  moduleName = "MoneyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jungsunwook/Desktop/MoneyConverter/MoneyConverter/money.swift"
+                  timestampString = "511888412.048701"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConverter.Money.usdollar.getter : Swift.Double"
+                  moduleName = "MoneyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jungsunwook/Desktop/MoneyConverter/MoneyConverter/money.swift"
+                  timestampString = "511888412.05081"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "9">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConverter.Money.usdollar.setter : Swift.Double"
+                  moduleName = "MoneyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jungsunwook/Desktop/MoneyConverter/MoneyConverter/money.swift"
+                  timestampString = "511888412.052165"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

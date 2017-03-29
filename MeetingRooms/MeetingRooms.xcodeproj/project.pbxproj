@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A101C3751E82CDF30046D5EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101C3741E82CDF30046D5EE /* AppDelegate.swift */; };
+		A101C3771E82CDF30046D5EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101C3761E82CDF30046D5EE /* ViewController.swift */; };
+		A101C37A1E82CDF30046D5EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A101C3781E82CDF30046D5EE /* Main.storyboard */; };
+		A101C37C1E82CDF30046D5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A101C37B1E82CDF30046D5EE /* Assets.xcassets */; };
+		A101C37F1E82CDF30046D5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A101C37D1E82CDF30046D5EE /* LaunchScreen.storyboard */; };
+		A101C38A1E82CDF30046D5EE /* MeetingRoomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101C3891E82CDF30046D5EE /* MeetingRoomsTests.swift */; };
+		A101C3951E82CDF30046D5EE /* MeetingRoomsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101C3941E82CDF30046D5EE /* MeetingRoomsUITests.swift */; };
+		A101C3E31E82D7900046D5EE /* MeetingRoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101C3E21E82D7900046D5EE /* MeetingRoomListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A101C3861E82CDF30046D5EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A101C3691E82CDF20046D5EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A101C3701E82CDF20046D5EE;
+			remoteInfo = MeetingRooms;
+		};
+		A101C3911E82CDF30046D5EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A101C3691E82CDF20046D5EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A101C3701E82CDF20046D5EE;
+			remoteInfo = MeetingRooms;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A101C3711E82CDF20046D5EE /* MeetingRooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingRooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A101C3741E82CDF30046D5EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A101C3761E82CDF30046D5EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A101C3791E82CDF30046D5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A101C37B1E82CDF30046D5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A101C37E1E82CDF30046D5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A101C3801E82CDF30046D5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A101C3851E82CDF30046D5EE /* MeetingRoomsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingRoomsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A101C3891E82CDF30046D5EE /* MeetingRoomsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomsTests.swift; sourceTree = "<group>"; };
+		A101C38B1E82CDF30046D5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A101C3901E82CDF30046D5EE /* MeetingRoomsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingRoomsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A101C3941E82CDF30046D5EE /* MeetingRoomsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomsUITests.swift; sourceTree = "<group>"; };
+		A101C3961E82CDF30046D5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A101C3E21E82D7900046D5EE /* MeetingRoomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingRoomListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A101C36E1E82CDF20046D5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A101C3821E82CDF30046D5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A101C38D1E82CDF30046D5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A101C3681E82CDF20046D5EE = {
+			isa = PBXGroup;
+			children = (
+				A101C3731E82CDF20046D5EE /* MeetingRooms */,
+				A101C3881E82CDF30046D5EE /* MeetingRoomsTests */,
+				A101C3931E82CDF30046D5EE /* MeetingRoomsUITests */,
+				A101C3721E82CDF20046D5EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A101C3721E82CDF20046D5EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A101C3711E82CDF20046D5EE /* MeetingRooms.app */,
+				A101C3851E82CDF30046D5EE /* MeetingRoomsTests.xctest */,
+				A101C3901E82CDF30046D5EE /* MeetingRoomsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A101C3731E82CDF20046D5EE /* MeetingRooms */ = {
+			isa = PBXGroup;
+			children = (
+				A101C3741E82CDF30046D5EE /* AppDelegate.swift */,
+				A101C3761E82CDF30046D5EE /* ViewController.swift */,
+				A101C3781E82CDF30046D5EE /* Main.storyboard */,
+				A101C37B1E82CDF30046D5EE /* Assets.xcassets */,
+				A101C37D1E82CDF30046D5EE /* LaunchScreen.storyboard */,
+				A101C3801E82CDF30046D5EE /* Info.plist */,
+				A101C3E21E82D7900046D5EE /* MeetingRoomListViewController.swift */,
+			);
+			path = MeetingRooms;
+			sourceTree = "<group>";
+		};
+		A101C3881E82CDF30046D5EE /* MeetingRoomsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A101C3891E82CDF30046D5EE /* MeetingRoomsTests.swift */,
+				A101C38B1E82CDF30046D5EE /* Info.plist */,
+			);
+			path = MeetingRoomsTests;
+			sourceTree = "<group>";
+		};
+		A101C3931E82CDF30046D5EE /* MeetingRoomsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A101C3941E82CDF30046D5EE /* MeetingRoomsUITests.swift */,
+				A101C3961E82CDF30046D5EE /* Info.plist */,
+			);
+			path = MeetingRoomsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A101C3701E82CDF20046D5EE /* MeetingRooms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A101C3991E82CDF30046D5EE /* Build configuration list for PBXNativeTarget "MeetingRooms" */;
+			buildPhases = (
+				A101C36D1E82CDF20046D5EE /* Sources */,
+				A101C36E1E82CDF20046D5EE /* Frameworks */,
+				A101C36F1E82CDF20046D5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingRooms;
+			productName = MeetingRooms;
+			productReference = A101C3711E82CDF20046D5EE /* MeetingRooms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A101C3841E82CDF30046D5EE /* MeetingRoomsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A101C39C1E82CDF30046D5EE /* Build configuration list for PBXNativeTarget "MeetingRoomsTests" */;
+			buildPhases = (
+				A101C3811E82CDF30046D5EE /* Sources */,
+				A101C3821E82CDF30046D5EE /* Frameworks */,
+				A101C3831E82CDF30046D5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A101C3871E82CDF30046D5EE /* PBXTargetDependency */,
+			);
+			name = MeetingRoomsTests;
+			productName = MeetingRoomsTests;
+			productReference = A101C3851E82CDF30046D5EE /* MeetingRoomsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A101C38F1E82CDF30046D5EE /* MeetingRoomsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A101C39F1E82CDF30046D5EE /* Build configuration list for PBXNativeTarget "MeetingRoomsUITests" */;
+			buildPhases = (
+				A101C38C1E82CDF30046D5EE /* Sources */,
+				A101C38D1E82CDF30046D5EE /* Frameworks */,
+				A101C38E1E82CDF30046D5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A101C3921E82CDF30046D5EE /* PBXTargetDependency */,
+			);
+			name = MeetingRoomsUITests;
+			productName = MeetingRoomsUITests;
+			productReference = A101C3901E82CDF30046D5EE /* MeetingRoomsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A101C3691E82CDF20046D5EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "정선욱";
+				TargetAttributes = {
+					A101C3701E82CDF20046D5EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A101C3841E82CDF30046D5EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A101C3701E82CDF20046D5EE;
+					};
+					A101C38F1E82CDF30046D5EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A101C3701E82CDF20046D5EE;
+					};
+				};
+			};
+			buildConfigurationList = A101C36C1E82CDF20046D5EE /* Build configuration list for PBXProject "MeetingRooms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A101C3681E82CDF20046D5EE;
+			productRefGroup = A101C3721E82CDF20046D5EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A101C3701E82CDF20046D5EE /* MeetingRooms */,
+				A101C3841E82CDF30046D5EE /* MeetingRoomsTests */,
+				A101C38F1E82CDF30046D5EE /* MeetingRoomsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A101C36F1E82CDF20046D5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A101C37F1E82CDF30046D5EE /* LaunchScreen.storyboard in Resources */,
+				A101C37C1E82CDF30046D5EE /* Assets.xcassets in Resources */,
+				A101C37A1E82CDF30046D5EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A101C3831E82CDF30046D5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A101C38E1E82CDF30046D5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A101C36D1E82CDF20046D5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A101C3771E82CDF30046D5EE /* ViewController.swift in Sources */,
+				A101C3751E82CDF30046D5EE /* AppDelegate.swift in Sources */,
+				A101C3E31E82D7900046D5EE /* MeetingRoomListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A101C3811E82CDF30046D5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A101C38A1E82CDF30046D5EE /* MeetingRoomsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A101C38C1E82CDF30046D5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A101C3951E82CDF30046D5EE /* MeetingRoomsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A101C3871E82CDF30046D5EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A101C3701E82CDF20046D5EE /* MeetingRooms */;
+			targetProxy = A101C3861E82CDF30046D5EE /* PBXContainerItemProxy */;
+		};
+		A101C3921E82CDF30046D5EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A101C3701E82CDF20046D5EE /* MeetingRooms */;
+			targetProxy = A101C3911E82CDF30046D5EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A101C3781E82CDF30046D5EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A101C3791E82CDF30046D5EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A101C37D1E82CDF30046D5EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A101C37E1E82CDF30046D5EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A101C3971E82CDF30046D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A101C3981E82CDF30046D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A101C39A1E82CDF30046D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetingRooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunwook.MeetingRooms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A101C39B1E82CDF30046D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetingRooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunwook.MeetingRooms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A101C39D1E82CDF30046D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeetingRoomsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunwook.MeetingRoomsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingRooms.app/MeetingRooms";
+			};
+			name = Debug;
+		};
+		A101C39E1E82CDF30046D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeetingRoomsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunwook.MeetingRoomsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingRooms.app/MeetingRooms";
+			};
+			name = Release;
+		};
+		A101C3A01E82CDF30046D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MeetingRoomsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunwook.MeetingRoomsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MeetingRooms;
+			};
+			name = Debug;
+		};
+		A101C3A11E82CDF30046D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MeetingRoomsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sunwook.MeetingRoomsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MeetingRooms;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A101C36C1E82CDF20046D5EE /* Build configuration list for PBXProject "MeetingRooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A101C3971E82CDF30046D5EE /* Debug */,
+				A101C3981E82CDF30046D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A101C3991E82CDF30046D5EE /* Build configuration list for PBXNativeTarget "MeetingRooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A101C39A1E82CDF30046D5EE /* Debug */,
+				A101C39B1E82CDF30046D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A101C39C1E82CDF30046D5EE /* Build configuration list for PBXNativeTarget "MeetingRoomsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A101C39D1E82CDF30046D5EE /* Debug */,
+				A101C39E1E82CDF30046D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A101C39F1E82CDF30046D5EE /* Build configuration list for PBXNativeTarget "MeetingRoomsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A101C3A01E82CDF30046D5EE /* Debug */,
+				A101C3A11E82CDF30046D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A101C3691E82CDF20046D5EE /* Project object */;
+}
