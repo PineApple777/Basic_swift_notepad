@@ -15,6 +15,9 @@
 		A101C38A1E82CDF30046D5EE /* MeetingRoomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101C3891E82CDF30046D5EE /* MeetingRoomsTests.swift */; };
 		A101C3951E82CDF30046D5EE /* MeetingRoomsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101C3941E82CDF30046D5EE /* MeetingRoomsUITests.swift */; };
 		A101C3E31E82D7900046D5EE /* MeetingRoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101C3E21E82D7900046D5EE /* MeetingRoomListViewController.swift */; };
+		A1E2E18E1E955DE60085C91D /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E2E18D1E955DE60085C91D /* DataCenter.swift */; };
+		A1E2E1901E9561B60085C91D /* BranchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E2E18F1E9561B60085C91D /* BranchListViewController.swift */; };
+		A1E2E1921E9561CA0085C91D /* ServiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E2E1911E9561CA0085C91D /* ServiceListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A101C3941E82CDF30046D5EE /* MeetingRoomsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomsUITests.swift; sourceTree = "<group>"; };
 		A101C3961E82CDF30046D5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A101C3E21E82D7900046D5EE /* MeetingRoomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingRoomListViewController.swift; sourceTree = "<group>"; };
+		A1E2E18D1E955DE60085C91D /* DataCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
+		A1E2E18F1E9561B60085C91D /* BranchListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchListViewController.swift; sourceTree = "<group>"; };
+		A1E2E1911E9561CA0085C91D /* ServiceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				A101C3741E82CDF30046D5EE /* AppDelegate.swift */,
 				A101C3761E82CDF30046D5EE /* ViewController.swift */,
 				A101C3781E82CDF30046D5EE /* Main.storyboard */,
+				A1E2E18D1E955DE60085C91D /* DataCenter.swift */,
+				A1E2E18F1E9561B60085C91D /* BranchListViewController.swift */,
+				A1E2E1911E9561CA0085C91D /* ServiceListViewController.swift */,
 				A101C37B1E82CDF30046D5EE /* Assets.xcassets */,
 				A101C37D1E82CDF30046D5EE /* LaunchScreen.storyboard */,
 				A101C3801E82CDF30046D5EE /* Info.plist */,
@@ -264,6 +273,9 @@
 			files = (
 				A101C3771E82CDF30046D5EE /* ViewController.swift in Sources */,
 				A101C3751E82CDF30046D5EE /* AppDelegate.swift in Sources */,
+				A1E2E18E1E955DE60085C91D /* DataCenter.swift in Sources */,
+				A1E2E1901E9561B60085C91D /* BranchListViewController.swift in Sources */,
+				A1E2E1921E9561CA0085C91D /* ServiceListViewController.swift in Sources */,
 				A101C3E31E82D7900046D5EE /* MeetingRoomListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

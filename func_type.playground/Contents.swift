@@ -153,4 +153,3 @@ for price in vatPrice {
 
 
 
-
